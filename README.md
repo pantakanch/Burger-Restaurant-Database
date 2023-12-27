@@ -1,6 +1,6 @@
 # Restaurant-Database
 
-Design a database schema of the restaurant following these tables
+Design a database schema for the restaurant with the following tables
 - customers
 - invoice
 - orders
@@ -8,4 +8,4 @@ Design a database schema of the restaurant following these tables
 - waiter
 
 # ER Diagram
-![Uploading Screenshot 2023-12-27 183409.png…]()
+![Screenshot 2023-12-27 183409](https://github.com/pantakanch/Restaurant-Database/assets/113978334/c90ea7cf-9c4d-4526-9067-87a43ee4bd6e)
