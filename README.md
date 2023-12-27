@@ -1,6 +1,6 @@
 # Restaurant-Database
 
-Design a database schema for the restaurant with the following tables
+Design a database schema for the mock-up restaurant with the following tables.
 - customers
 - invoice
 - orders
