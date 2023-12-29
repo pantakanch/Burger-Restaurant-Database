@@ -85,12 +85,9 @@ ORDER BY 3 DESC;
 SELECT
     i.ing_id,
     i.ing_name,
-    SUM(r.quantity) AS total_used
+    (SELECT SUM(r.quantity) FROM receipt r WHERE r.menu_id IN (SELECT fr.menu_id FROM food_recipe fr WHERE fr.ing_id = i.ing_id)) AS total_quantity_used
 FROM ingredient i
-JOIN food_recipe fr ON i.ing_id = fr.ing_id
-JOIN receipt r ON fr.menu_id = r.menu_id
-GROUP BY 1
-ORDER BY 3 DESC;
+ORDER BY total_quantity_used DESC;
 ```
 
 ![Screenshot 2023-12-29 181512](https://github.com/pantakanch/Restaurant-Database/assets/113978334/651180e7-4579-4035-9e70-9344109a4312)
