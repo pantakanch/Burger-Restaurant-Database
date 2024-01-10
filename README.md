@@ -1,10 +1,10 @@
 # Burger Restaurant Database
 
-## Overview
+## Overview:
 
 Welcome to the "Burger Restaurant Database" project! This GitHub repository focuses on creating a comprehensive database for a burger restaurant using SQL, along with an Entity-Relationship (ER) diagram generated using dbdiagram.io and several SQL queries to analyze sales, customer spending, employee performance, and ingredient usage.
 
-## Database Structure
+## Database Structure:
 
 ### Tables
 
@@ -27,7 +27,7 @@ Welcome to the "Burger Restaurant Database" project! This GitHub repository focu
 The ER diagram visually represents the relationships between different tables, providing a clear overview of the database structure.
 ![ER Diagram](https://github.com/pantakanch/Restaurant-Database/assets/113978334/8641a336-4adf-419a-b57d-4225a67ba84b)
 
-## SQL Queries
+## SQL Queries:
 
 1. **Top-Selling Menu:**
    - Identifies the most popular menu items based on total sales quantity.
