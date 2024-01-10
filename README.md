@@ -1,4 +1,4 @@
-# Burger Restaurant Database Project
+# Burger Restaurant Database
 
 ## Overview
 
