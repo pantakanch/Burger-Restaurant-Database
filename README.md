@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to the "Burger Restaurant Database" project! This GitHub repository focuses on creating a comprehensive database for a burger restaurant using SQL, along with an Entity-Relationship (ER) diagram generated using dbdiagram.io. The project includes the creation of tables, data insertion, and several SQL queries to analyze sales, customer spending, employee performance, and ingredient usage.
+Welcome to the "Burger Restaurant Database" project! This GitHub repository focuses on creating a comprehensive database for a burger restaurant using SQL, along with an Entity-Relationship (ER) diagram generated using dbdiagram.io and several SQL queries to analyze sales, customer spending, employee performance, and ingredient usage.
 
 ## Database Structure
 
